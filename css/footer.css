@@ -1,0 +1,39 @@
+#footer {
+}
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.keyboard-item {
+  display: flex;
+  gap: 5px;
+}
+
+.keyboard-item .key-value {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(209, 210, 215);
+}
+.enter-key {
+  font-size: 18px !important;
+  width: 50px !important;
+}
+.backspace-key {
+  width: 40px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backspace-key img {
+  width: 25px;
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@import "./reset.css";
+@import "./main.css";
+@import "./header.css";
+@import "./footer.css";
+
+#wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

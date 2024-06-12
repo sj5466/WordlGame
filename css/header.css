@@ -1,0 +1,37 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d3d6da;
+  padding: 7px 15px;
+}
+.header-menu {
+  width: 30px;
+  cursor: pointer;
+}
+.header-logo {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 15vw;
+}
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+.header-icons .icon-item {
+  width: 30px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.header-icons .icon-item:nth-child(1) {
+  margin-right: 0;
+}
+.header-icons .save-game-btn {
+  width: 170px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
